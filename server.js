@@ -1,6 +1,6 @@
 var express = require('express')
 var app = express()
-var port = 8080;
+var port = process.env.PORT || 8080;
 var bad_result = {"unix":null, "natural": null}
 module.exports =app 
 function formatNatDate(date){
