@@ -1,0 +1,15 @@
+{
+  "name": "timstamp_micro_service",
+  "version": "1.0.0",
+  "description": "The first api task on free code camp",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "author": "Karen McCulloch",
+  "license": "ISC"
+}
